@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
-import { eslint } from 'rollup-plugin-eslint'
+// import { eslint } from 'rollup-plugin-eslint'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -36,7 +36,7 @@ export default {
       dedupe: ['svelte'],
     }),
     commonjs(),
-    eslint(),
+    // eslint(),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated

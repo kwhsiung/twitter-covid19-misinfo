@@ -28,6 +28,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "enter-view": "^2.0.0",
+    "intersection-observer": "^0.10.0",
+    "scrollama": "^2.2.1",
     "sirv-cli": "^0.4.4"
   }
 }
