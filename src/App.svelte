@@ -88,7 +88,7 @@
 			}
 		})
 
-		scrollama()
+		const scroller = scrollama()
 			.setup({
 				step: '.long-chart',
 				offset: 1
@@ -99,6 +99,7 @@
 			.onStepExit(response => {
 				shouldFixLongChartArticle = false
 			})
+		window.addEventListener('resize', scroller.resize)
 	})
 </script>
 
