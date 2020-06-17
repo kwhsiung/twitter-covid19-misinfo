@@ -155,4 +155,19 @@
 		bottom: 10px;
 		right: 10px;
 	}
+
+	@media (min-width: 768px) {
+		.scrolly__textboxes	{
+			width: 400px;
+			margin: 0 200px 0 auto;
+		}
+
+		.long-chart__textboxes	{
+			width: 400px;
+			right: 200px;
+		}
+		.long-chart__textboxes.fix	{
+			right: 200px;
+		}
+	}
 </style>
